@@ -10,21 +10,27 @@ This repository uses a composite neural network (CPNN) to predict the 3‑D part
 |------|---------------|
 | **Git** | 2.50+ |
 | **Python** | 3.11&nbsp;×64 |
-> Windows users: tick **“Add Python to PATH”** when installing Python.
+> *When installing Python on Windows, tick **“Add Python to PATH”**.*
 
 ### 2  Clone and set up
 ```bash
-# clone the repo
+# 2-1 clone the repo
 git clone https://github.com/shatarahhh/CPNN-3D-Unsteady.git
 cd CPNN-3D-Unsteady
 
-# create and activate a fresh virtual environment
-py -3.11 -m venv .venv          # Linux/macOS: python3 -m venv .venv
-source .venv/Scripts/activate   # Linux/macOS: source .venv/bin/activate
+# 2-2 create and activate a fresh virtual environment
+# ▸ Windows (PowerShell)
+py -3.11 -m venv .venv
+.\.venv\Scripts\Activate.ps1
 
-# upgrade pip, then install core dependencies
+# ▸ Linux
+python3.11 -m venv .venv
+source .venv/bin/activate
+
+# 2-3 upgrade pip, then install core dependencies
 python -m pip install -U pip
 pip install -r requirements.txt
 
-# Run the notebook
+# 2-4 Run the notebook
 jupyter notebook
+```
