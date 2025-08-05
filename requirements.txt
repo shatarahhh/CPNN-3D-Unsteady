@@ -9,4 +9,5 @@ ipykernel==6.29.4
 trame>=3.4,<4
 trame-vtk>=2.8,<3
 trame-vuetify>=3.0,<4
+notebook~=7.2
 
