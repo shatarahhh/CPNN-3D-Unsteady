@@ -6,7 +6,7 @@ This repository uses a composite neural network (CPNN) to predict the 3‑D part
 ## Quick start
 
 ### 1  Prerequisites
-| Tool | Tested version |
+|Tool  | Tested version |
 |------|----------------|
 | **Git** | 2.50+ |
 | **Python** | 3.11&nbsp;×64 |
